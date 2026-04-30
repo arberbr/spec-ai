@@ -1,6 +1,6 @@
 import {
   defineConfig
-} from "../../chunk-PMEIET5P.mjs";
+} from "../../chunk-NF3ZSPTK.mjs";
 import "../../chunk-WZGQJWAS.mjs";
 import {
   init_esm

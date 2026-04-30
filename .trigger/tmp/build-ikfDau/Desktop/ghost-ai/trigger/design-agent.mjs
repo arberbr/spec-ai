@@ -1,13 +1,13 @@
 import {
   createGoogleGenerativeAI,
-  external_exports,
   generateText,
   tool
-} from "../../../chunk-O75TWZQA.mjs";
+} from "../../../chunk-U2WBBFSF.mjs";
 import "../../../chunk-WYIMKSRR.mjs";
 import {
+  external_exports,
   task
-} from "../../../chunk-PMEIET5P.mjs";
+} from "../../../chunk-NF3ZSPTK.mjs";
 import "../../../chunk-WZGQJWAS.mjs";
 import {
   __commonJS,
@@ -4635,7 +4635,7 @@ function getBaseUrl(baseUrl) {
 }
 __name(getBaseUrl, "getBaseUrl");
 async function fetchPolyfill() {
-  return typeof globalThis.fetch !== "undefined" ? globalThis.fetch : (await import("../../../lib-IHTIXJFE.mjs")).default;
+  return typeof globalThis.fetch !== "undefined" ? globalThis.fetch : (await import("../../../lib-U7HCZIK3.mjs")).default;
 }
 __name(fetchPolyfill, "fetchPolyfill");
 function isString(value) {
