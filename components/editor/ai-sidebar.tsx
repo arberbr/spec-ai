@@ -469,7 +469,7 @@ export function AiSidebar({ isOpen, onClose, roomId, projectId }: AiSidebarProps
       <Dialog open={specModalOpen} onOpenChange={(open) => { if (!open) handleModalClose() }}>
         <DialogContent
           showCloseButton
-          className="max-w-2xl border-border-default bg-bg-surface"
+          className="max-w-[calc(100%-2rem)] sm:max-w-5xl border-border-default bg-bg-surface"
         >
           <DialogHeader>
             <DialogTitle className="pr-6 text-sm font-medium text-text-primary">

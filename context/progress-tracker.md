@@ -63,6 +63,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Session Notes
 
+- Spec preview modal (ai-sidebar): widened with `sm:max-w-5xl` so it overrides default `DialogContent` `sm:max-w-sm` and reads better on large screens.
 - Using Next.js 16.2.4 with React 19 and Tailwind CSS v4.
 - shadcn version 4.5.0 was used; it auto-detected Tailwind v4.
 - lucide-react ^1.11.0 installed as a direct dependency.
